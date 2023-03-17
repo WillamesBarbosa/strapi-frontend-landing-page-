@@ -6,5 +6,5 @@ Esta é uma landing page em desenvolvimento. Este repositório é dedicado a par
 
 ## Status
 * Componente Heading criado;
-* Componente Heading entrará em testes;
+* Componente Heading testado;
 * Ainda em desenvolvimento...
