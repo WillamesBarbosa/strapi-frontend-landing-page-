@@ -8,7 +8,6 @@ export default {
   },
   argTypes: {
     children: { type: 'string' },
-    light: { type: 'boolean' },
   },
   parameters: {
     backgrounds: {
@@ -28,5 +27,5 @@ Light.parameters = {
 
 Dark.args = {
   children: 'O texto está claro',
-  colorDark: true,
+  colorDark: false,
 };
