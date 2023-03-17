@@ -25,6 +25,10 @@ const titleSize = {
     css`
       font-size: ${theme.font.size.xbig};
     `,
+  xxbig: (theme) =>
+    css`
+      font-size: ${theme.font.size.xxbig};
+    `,
 };
 
 const titleCase = (uppercase) => css`
