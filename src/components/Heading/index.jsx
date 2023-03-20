@@ -1,5 +1,6 @@
-import * as Styled from './styles';
 import P from 'prop-types';
+
+import * as Styled from './styles';
 
 export const Heading = ({ children, colorDark = true, as = 'h1', size = 'xxbig', uppercase = false }) => {
   return (
