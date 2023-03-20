@@ -20,6 +20,16 @@ export const theme = {
       xbig: '4.8rem',
       xxbig: '6.4rem',
     },
+
+    spacings: {
+      xxsmall: '0.8rem',
+      xsmall: '1.6rem',
+      small: '2.4rem',
+      medium: '3.2rem',
+      big: '4.0rem',
+      xbig: '4.8rem',
+      xxbig: '6.4rem',
+    },
   },
 
   mediaQuerie: {
