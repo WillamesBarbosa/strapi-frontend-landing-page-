@@ -1,9 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.nav`
   ${({ theme }) => css`
     display: flex;
-    background-color: ${theme.colors.white};
     text-align: center;
     flex-flow: row wrap;
 
