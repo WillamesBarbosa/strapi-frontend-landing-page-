@@ -15,7 +15,7 @@ describe('<NavLink />', () => {
     expect(screen.queryAllByText(/link/i)).toHaveLength(0);
   });
 
-  it('should render', () => {
+  it('should render should render correctly when on screens smaller than 768px', () => {
     renderTheme(<NavLink links={link} />);
     expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule('flex-flow', 'column wrap', {
       media: theme.mediaQuerie.mediumQuerie,

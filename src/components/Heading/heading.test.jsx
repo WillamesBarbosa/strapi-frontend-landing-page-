@@ -135,6 +135,6 @@ describe('<Heading />', () => {
 
   it('should match snapshot', () => {
     const { container } = renderTheme(<Heading>Children</Heading>);
-    expect(container).toMatchSnapshot();
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
