@@ -7,4 +7,24 @@ Esta é uma landing page em desenvolvimento. Este repositório é dedicado a par
 ## Status
 * Componente Heading criado;
 * Componente Heading testado;
+
+* Componente LogoLink criado;
+* Componente LogoLink testado;
+
+* Componente MenuLink criado;
+* Componente MenuLink testado;
+
+* Componente NavLinks criado;
+* Componente NavLinks testado;
+
+* Componente TextoComponent criado;
+* Componente TextoComponent testado;
+
+* Componente SectionContainer criado;
+* Componente SectionContainer testado;
+
+* Componente SectionBackground criado;
+* Componente SectionBackground testado;
+
+
 * Ainda em desenvolvimento...
