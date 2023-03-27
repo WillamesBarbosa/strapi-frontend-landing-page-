@@ -52,6 +52,7 @@ exports[`<NavLink /> should match snapshot 1`] = `
 }
 
 <nav
+  aria-label="Main menu"
   class="c0"
 >
   <a

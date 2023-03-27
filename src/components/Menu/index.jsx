@@ -11,7 +11,7 @@ export const Menu = ({ links, logoData }) => {
   const [visible, setVisible] = useState(false);
   return (
     <>
-      <Styled.Button visible={visible} onClick={() => setVisible(true)} aria-label="Open / Close Menu">
+      <Styled.Button visible={visible} onClick={() => setVisible(true)} aria-label="Open/Close Menu">
         {visible ? <MenuIconClose aria-label="Close Menu" /> : <MenuIconOpen aria-label="Open Menu" />}
       </Styled.Button>
       <Styled.Container visible={visible} onClick={() => setVisible(false)}>
