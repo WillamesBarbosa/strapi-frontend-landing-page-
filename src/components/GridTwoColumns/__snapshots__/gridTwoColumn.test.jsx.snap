@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridTwoColumn /> should match snapshot 1`] = `
+.c4 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 4.0rem;
+  padding: 4.0rem;
+}
+
+.c1 .c3 {
+  margin-bottom: 4.0rem;
+}
+
+.c0 {
+  background-color: #fff;
+  color: #0A1128;
+  min-height: 100vh;
+}
+
+.c5 {
+  font-size: 3.2rem;
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    margin-bottom: 4.0rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h1
+        class="c3 c4"
+      >
+        Title Text
+      </h1>
+      <p
+        class="c5"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit deleniti ullam magnam! Nam unde porro voluptatum accusantium dicta amet quaerat illum laborum ab animi. Rerum excepturi aperiam aliquid sint velit?
+      </p>
+    </div>
+    <div
+      class=""
+    >
+      <img
+        class=""
+        src="assets/javascript.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
