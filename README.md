@@ -28,3 +28,17 @@ Esta é uma landing page em desenvolvimento. Este repositório é dedicado a par
 
 
 * Ainda em desenvolvimento...
+
+## Acesso ao projeto
+
+* Em breve...
+
+## Tecnologias utilizadas
+
+* ReactJs
+* Css
+
+## Pessoa desenvolvedora
+
+- Willames da Silva Barbosa
+
