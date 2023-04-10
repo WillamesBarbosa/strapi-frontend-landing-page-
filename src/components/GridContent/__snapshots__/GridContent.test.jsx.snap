@@ -39,11 +39,11 @@ exports[`<GridContent /> should match snapshot 1`] = `
   <div
     class="c1"
   >
-    <h1
+    <h2
       class="c2"
     >
       Title Text
-    </h1>
+    </h2>
     <div
       class="c3"
     >
