@@ -4,6 +4,8 @@ exports[`<SectionBackground /> should render with background dark 1`] = `
 .c0 {
   background-color: #fff;
   color: #0A1128;
+  background-color: #0A1128;
+  color: #fff;
   min-height: 100vh;
 }
 

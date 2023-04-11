@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+.c0 {
+  text-align: center;
+}
+
+.c0 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+
+.c2 {
+  font-size: 3.2rem;
+}
+
+.c1 {
+  padding: 3.2rem;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    />
+  </div>
+</div>
+`;

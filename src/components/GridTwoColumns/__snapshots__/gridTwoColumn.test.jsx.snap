@@ -64,11 +64,11 @@ exports[`<GridTwoColumn /> should match snapshot 1`] = `
       >
         Title Text
       </h2>
-      <p
+      <div
         class="c5"
       >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit deleniti ullam magnam! Nam unde porro voluptatum accusantium dicta amet quaerat illum laborum ab animi. Rerum excepturi aperiam aliquid sint velit?
-      </p>
+      </div>
     </div>
     <div
       class=""

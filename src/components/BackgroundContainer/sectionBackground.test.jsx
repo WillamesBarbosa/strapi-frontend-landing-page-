@@ -5,7 +5,7 @@ import { SectionBackground } from '.';
 describe('<SectionBackground />', () => {
   it('should render with background dark', () => {
     const { container } = renderTheme(
-      <SectionBackground background={true}>
+      <SectionBackground backgroundColor={true}>
         <h1>Children</h1>
       </SectionBackground>,
     );

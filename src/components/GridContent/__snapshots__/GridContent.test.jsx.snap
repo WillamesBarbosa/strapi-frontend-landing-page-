@@ -47,7 +47,7 @@ exports[`<GridContent /> should match snapshot 1`] = `
     <div
       class="c3"
     >
-      <p
+      <div
         class="c4"
       >
         <strong>
@@ -137,7 +137,7 @@ exports[`<GridContent /> should match snapshot 1`] = `
   
           </code>
         </pre>
-      </p>
+      </div>
     </div>
   </div>
 </div>
