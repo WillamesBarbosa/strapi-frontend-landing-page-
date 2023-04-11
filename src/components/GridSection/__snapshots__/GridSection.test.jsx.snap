@@ -116,3 +116,356 @@ exports[`<GridText /> should match snapshot 1`] = `
   </div>
 </div>
 `;
+
+exports[`<GridText /> should render GridText dark 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c5 {
+  font-size: 3.2rem;
+}
+
+.c1 .c4 {
+  margin-bottom: 4.8rem;
+}
+
+.c6 {
+  counter-reset: grid-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 4.0rem;
+}
+
+.c7 .c2 {
+  position: relative;
+  left: 5rem;
+}
+
+.c7 .c2::before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 7rem;
+  top: -3rem;
+  left: -5rem;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.c0 {
+  background-color: #fff;
+  color: #0A1128;
+  min-height: 100vh;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 3.2rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2 c3"
+    >
+      My grid
+    </h2>
+    <div
+      class="c4 c5"
+    >
+      Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 1
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 2
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 3
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridText /> should render GridText light 1`] = `
+.c3 {
+  color: #fff;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c5 {
+  font-size: 3.2rem;
+}
+
+.c1 .c4 {
+  margin-bottom: 4.8rem;
+}
+
+.c6 {
+  counter-reset: grid-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 4.0rem;
+}
+
+.c7 .c2 {
+  position: relative;
+  left: 5rem;
+}
+
+.c7 .c2::before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 7rem;
+  top: -3rem;
+  left: -5rem;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.c0 {
+  background-color: #fff;
+  color: #0A1128;
+  background-color: #0A1128;
+  color: #fff;
+  min-height: 100vh;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 3.2rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2 c3"
+    >
+      My grid
+    </h2>
+    <div
+      class="c4 c5"
+    >
+      Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 1
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 2
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 3
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridText /> should render GridText undefined 1`] = `
+.c3 {
+  color: #0A1128;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c5 {
+  font-size: 3.2rem;
+}
+
+.c1 .c4 {
+  margin-bottom: 4.8rem;
+}
+
+.c6 {
+  counter-reset: grid-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 4.0rem;
+}
+
+.c7 .c2 {
+  position: relative;
+  left: 5rem;
+}
+
+.c7 .c2::before {
+  counter-increment: grid-counter;
+  content: counter(grid-counter);
+  position: absolute;
+  font-size: 7rem;
+  top: -3rem;
+  left: -5rem;
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.c0 {
+  background-color: #fff;
+  color: #0A1128;
+  min-height: 100vh;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    font-size: 3.2rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <h2
+      class="c2 c3"
+    >
+      My grid
+    </h2>
+    <div
+      class="c4 c5"
+    >
+      Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 1
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 2
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+      <div
+        class="c7"
+      >
+        <h3
+          class="c2 c3"
+        >
+          Teste 3
+        </h3>
+        <div
+          class="c4 c5"
+        >
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis cum delectus molestias. Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde, reprehenderit minus ad dolores provident maiores.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
