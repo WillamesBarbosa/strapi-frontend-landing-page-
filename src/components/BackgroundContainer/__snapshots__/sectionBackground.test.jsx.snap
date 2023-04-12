@@ -5,6 +5,7 @@ exports[`<SectionBackground /> should match snapshot 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 <div
@@ -23,6 +24,7 @@ exports[`<SectionBackground /> should render with background dark 1`] = `
   background-color: #0A1128;
   color: #fff;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 <div>
@@ -41,6 +43,7 @@ exports[`<SectionBackground /> should render with background light 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 <div>
@@ -59,6 +62,7 @@ exports[`<SectionBackground /> should render with background undefined 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 <div>

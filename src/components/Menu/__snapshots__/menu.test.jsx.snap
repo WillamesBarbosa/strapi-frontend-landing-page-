@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Menu /> should not render links 1`] = `
-.c3 {
+.c4 {
   padding: 3.2rem;
   max-width: 120rem;
   margin: 0 auto;
 }
 
-.c5 {
+.c7 {
   color: #0A1128;
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -26,18 +26,18 @@ exports[`<Menu /> should not render links 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c2 > {
+.c2 > .c3 {
   padding-top: 0;
   padding-bottom: 0;
-  background-color: blue;
 }
 
-.c2 {
+.c2 .c6 {
   margin-top: 0;
   margin-bottom: 0;
+  left: 2rem;
 }
 
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -71,7 +71,7 @@ exports[`<Menu /> should not render links 1`] = `
   height: 2.5rem;
 }
 
-.c6 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -85,11 +85,11 @@ exports[`<Menu /> should not render links 1`] = `
   color: inherit;
 }
 
-.c6 > img {
+.c8 > img {
   max-height: 2.4rem;
 }
 
-.c7 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -107,7 +107,7 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 @media (max-width:768px) {
-  .c5 {
+  .c7 {
     font-size: 3.2rem;
   }
 }
@@ -119,7 +119,7 @@ exports[`<Menu /> should not render links 1`] = `
     opacity: 0;
   }
 
-  .c2 > {
+  .c2 > .c3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -130,7 +130,7 @@ exports[`<Menu /> should not render links 1`] = `
     overflow-y: auto;
   }
 
-  .c2 {
+  .c2 .c6 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -144,7 +144,7 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 @media (max-width:768px) {
-  .c4 {
+  .c5 {
     display: block;
     text-align: center;
     padding: 4.0rem 0;
@@ -158,7 +158,7 @@ exports[`<Menu /> should not render links 1`] = `
 }
 
 @media (max-width:768px) {
-  .c7 {
+  .c9 {
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -191,16 +191,16 @@ exports[`<Menu /> should not render links 1`] = `
     class="c2"
   >
     <div
-      class="c3"
+      class="c3 c4"
     >
       <div
-        class="c4"
+        class="c5"
       >
         <h1
-          class="c5"
+          class="c6 c7"
         >
           <a
-            class="c6"
+            class="c8"
             href="#target"
           >
             <span>
@@ -210,7 +210,7 @@ exports[`<Menu /> should not render links 1`] = `
         </h1>
         <nav
           aria-label="Main menu"
-          class="c7"
+          class="c9"
         />
       </div>
     </div>
@@ -219,13 +219,13 @@ exports[`<Menu /> should not render links 1`] = `
 `;
 
 exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
-.c3 {
+.c4 {
   padding: 3.2rem;
   max-width: 120rem;
   margin: 0 auto;
 }
 
-.c5 {
+.c7 {
   color: #0A1128;
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -244,18 +244,18 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c2 > {
+.c2 > .c3 {
   padding-top: 0;
   padding-bottom: 0;
-  background-color: blue;
 }
 
-.c2 {
+.c2 .c6 {
   margin-top: 0;
   margin-bottom: 0;
+  left: 2rem;
 }
 
-.c4 {
+.c5 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -289,7 +289,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   height: 2.5rem;
 }
 
-.c6 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -303,11 +303,11 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   color: inherit;
 }
 
-.c6 > img {
+.c8 > img {
   max-height: 2.4rem;
 }
 
-.c7 {
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -318,7 +318,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   flex-flow: row wrap;
 }
 
-.c8 {
+.c10 {
   display: block;
   font-size: 1.6rem;
   padding: 1.6rem;
@@ -329,7 +329,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   width: 10rem;
 }
 
-.c8::after {
+.c10::after {
   content: '';
   position: absolute;
   bottom: 0.76rem;
@@ -341,7 +341,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c8:hover::after {
+.c10:hover::after {
   left: 25%;
   width: 50%;
 }
@@ -353,7 +353,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 @media (max-width:768px) {
-  .c5 {
+  .c7 {
     font-size: 3.2rem;
   }
 }
@@ -365,7 +365,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
     opacity: 0;
   }
 
-  .c2 > {
+  .c2 > .c3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -376,7 +376,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
     overflow-y: auto;
   }
 
-  .c2 {
+  .c2 .c6 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -390,7 +390,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 @media (max-width:768px) {
-  .c4 {
+  .c5 {
     display: block;
     text-align: center;
     padding: 4.0rem 0;
@@ -404,7 +404,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 @media (max-width:768px) {
-  .c7 {
+  .c9 {
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -437,16 +437,16 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
     class="c2"
   >
     <div
-      class="c3"
+      class="c3 c4"
     >
       <div
-        class="c4"
+        class="c5"
       >
         <h1
-          class="c5"
+          class="c6 c7"
         >
           <a
-            class="c6"
+            class="c8"
             href="#target"
           >
             <span>
@@ -456,73 +456,73 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
         </h1>
         <nav
           aria-label="Main menu"
-          class="c7"
+          class="c9"
         >
           <a
-            class="c8"
+            class="c10"
             href="#target1"
             target="_self"
           >
             Link 1
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target2"
             target="_self"
           >
             Link 2
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target3"
             target="_self"
           >
             Link 3
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target4"
             target="_self"
           >
             Link 4
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target5"
             target="_self"
           >
             Link 5
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target6"
             target="_self"
           >
             Link 6
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target7"
             target="_self"
           >
             Link 7
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target8"
             target="_self"
           >
             Link 8
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target9"
             target="_self"
           >
             Link 9
           </a>
           <a
-            class="c8"
+            class="c10"
             href="#target10"
             target="_self"
           >

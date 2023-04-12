@@ -1,9 +1,6 @@
-import * as Styled from './styles';
+import { BaseTemplate } from './BaseTemplate';
+import { mockBase } from './BaseTemplate/stories';
 
 export default function Home() {
-  return (
-    <Styled.Wrapper>
-      <h1>Hello</h1>
-    </Styled.Wrapper>
-  );
+  return <BaseTemplate {...mockBase} />;
 }

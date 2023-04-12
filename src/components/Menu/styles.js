@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import { Container as SectionContainer } from '../SectionContainer/index';
-import { Title as Heading } from '../Heading/index';
+import { Container as SectionContainer } from '../SectionContainer/styles';
+import { Title as Heading } from '../Heading/styles';
 
 const menuVisible = (theme) => css`
   opacity: 1;
@@ -23,12 +23,12 @@ export const Container = styled.div`
     > ${SectionContainer} {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: blue;
     }
 
     & ${Heading} {
       margin-top: 0;
       margin-bottom: 0;
+      left: 2rem;
     }
 
     @media ${theme.mediaQuerie.mediumQuerie} {

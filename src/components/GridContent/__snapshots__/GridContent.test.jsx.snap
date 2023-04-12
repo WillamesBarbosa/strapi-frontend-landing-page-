@@ -15,6 +15,7 @@ exports[`<GridContent /> should match snapshot 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 .c2 {

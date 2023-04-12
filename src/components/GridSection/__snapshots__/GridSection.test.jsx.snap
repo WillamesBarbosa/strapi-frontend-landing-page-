@@ -4,6 +4,12 @@ exports[`<GridText /> should match snapshot 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c8 {
+  color: #0A1128;
+  font-size: 6.4rem;
   text-transform: none;
 }
 
@@ -13,6 +19,12 @@ exports[`<GridText /> should match snapshot 1`] = `
 
 .c1 .c4 {
   margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+}
+
+.c1 .c4 > .c2 {
+  font-size: 2.4rem;
 }
 
 .c6 {
@@ -20,11 +32,14 @@ exports[`<GridText /> should match snapshot 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 4.0rem;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
 }
 
 .c7 .c2 {
   position: relative;
-  left: 5rem;
+  font-size: 3.2rem;
 }
 
 .c7 .c2::before {
@@ -43,11 +58,24 @@ exports[`<GridText /> should match snapshot 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 @media (max-width:768px) {
   .c3 {
     font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -74,7 +102,7 @@ exports[`<GridText /> should match snapshot 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 1
         </h3>
@@ -88,7 +116,7 @@ exports[`<GridText /> should match snapshot 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 2
         </h3>
@@ -102,7 +130,7 @@ exports[`<GridText /> should match snapshot 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 3
         </h3>
@@ -121,6 +149,12 @@ exports[`<GridText /> should render GridText dark 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c8 {
+  color: #0A1128;
+  font-size: 6.4rem;
   text-transform: none;
 }
 
@@ -130,6 +164,12 @@ exports[`<GridText /> should render GridText dark 1`] = `
 
 .c1 .c4 {
   margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+}
+
+.c1 .c4 > .c2 {
+  font-size: 2.4rem;
 }
 
 .c6 {
@@ -137,11 +177,14 @@ exports[`<GridText /> should render GridText dark 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 4.0rem;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
 }
 
 .c7 .c2 {
   position: relative;
-  left: 5rem;
+  font-size: 3.2rem;
 }
 
 .c7 .c2::before {
@@ -160,11 +203,24 @@ exports[`<GridText /> should render GridText dark 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 @media (max-width:768px) {
   .c3 {
     font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -191,7 +247,7 @@ exports[`<GridText /> should render GridText dark 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 1
         </h3>
@@ -205,7 +261,7 @@ exports[`<GridText /> should render GridText dark 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 2
         </h3>
@@ -219,7 +275,7 @@ exports[`<GridText /> should render GridText dark 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 3
         </h3>
@@ -238,6 +294,12 @@ exports[`<GridText /> should render GridText light 1`] = `
 .c3 {
   color: #fff;
   font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c8 {
+  color: #fff;
+  font-size: 6.4rem;
   text-transform: none;
 }
 
@@ -247,6 +309,12 @@ exports[`<GridText /> should render GridText light 1`] = `
 
 .c1 .c4 {
   margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+}
+
+.c1 .c4 > .c2 {
+  font-size: 2.4rem;
 }
 
 .c6 {
@@ -254,11 +322,14 @@ exports[`<GridText /> should render GridText light 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 4.0rem;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
 }
 
 .c7 .c2 {
   position: relative;
-  left: 5rem;
+  font-size: 3.2rem;
 }
 
 .c7 .c2::before {
@@ -279,11 +350,24 @@ exports[`<GridText /> should render GridText light 1`] = `
   background-color: #0A1128;
   color: #fff;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 @media (max-width:768px) {
   .c3 {
     font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -310,7 +394,7 @@ exports[`<GridText /> should render GridText light 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 1
         </h3>
@@ -324,7 +408,7 @@ exports[`<GridText /> should render GridText light 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 2
         </h3>
@@ -338,7 +422,7 @@ exports[`<GridText /> should render GridText light 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 3
         </h3>
@@ -357,6 +441,12 @@ exports[`<GridText /> should render GridText undefined 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
+  text-transform: uppercase;
+}
+
+.c8 {
+  color: #0A1128;
+  font-size: 6.4rem;
   text-transform: none;
 }
 
@@ -366,6 +456,12 @@ exports[`<GridText /> should render GridText undefined 1`] = `
 
 .c1 .c4 {
   margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+  font-size: 2.4rem;
+}
+
+.c1 .c4 > .c2 {
+  font-size: 2.4rem;
 }
 
 .c6 {
@@ -373,11 +469,14 @@ exports[`<GridText /> should render GridText undefined 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 4.0rem;
+  overflow: hidden;
+  margin: auto;
+  width: 80%;
 }
 
 .c7 .c2 {
   position: relative;
-  left: 5rem;
+  font-size: 3.2rem;
 }
 
 .c7 .c2::before {
@@ -396,11 +495,24 @@ exports[`<GridText /> should render GridText undefined 1`] = `
   background-color: #fff;
   color: #0A1128;
   min-height: 100vh;
+  padding: 5rem;
 }
 
 @media (max-width:768px) {
   .c3 {
     font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -427,7 +539,7 @@ exports[`<GridText /> should render GridText undefined 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 1
         </h3>
@@ -441,7 +553,7 @@ exports[`<GridText /> should render GridText undefined 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 2
         </h3>
@@ -455,7 +567,7 @@ exports[`<GridText /> should render GridText undefined 1`] = `
         class="c7"
       >
         <h3
-          class="c2 c3"
+          class="c2 c8"
         >
           Teste 3
         </h3>
