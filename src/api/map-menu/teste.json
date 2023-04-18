@@ -1,0 +1,38 @@
+
+{"open_in_new_tab": false,
+      "_id": "602fdf30540c00269e0561ae",
+      "logo_text": "Landing Page",
+      "logo_link": "#home",
+      "menu": [
+        {
+          "open_in_new_tab": false,
+          "_id": "602fdf30540c00269e0561af",
+          "link_text": "intro",
+          "url": "#intro",
+          "__v": 0,
+          "id": "602fdf30540c00269e0561af"
+        },
+        {
+          "open_in_new_tab": false,
+          "_id": "602fdf30540c00269e0561b0",
+          "link_text": "grid-one",
+          "url": "#grid-one",
+          "__v": 0,
+          "id": "602fdf30540c00269e0561b0"
+        },
+      ],
+      "__v": 1,
+      "logo": {
+        "_id": "602fda0abba83e6e2dd2ebfd",
+        "name": "landing-page-2.svg",
+        "alternativeText": "Landing Page Logo",
+        "caption": "Landing Page Logo",
+        "hash": "landing_page_2_f7da938739",
+        "ext": ".svg",
+        "mime": "image/svg+xml",
+        "size": 2.51,
+        "url": "https://res.cloudinary.com/dlizakp2a/image/upload/v1613748744/landing_page_2_f7da938739.svg",
+        "provider_metadata": {
+          "public_id": "landing_page_2_f7da938739",
+          "resource_type": "image"
+        }}
