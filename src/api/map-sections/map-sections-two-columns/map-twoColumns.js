@@ -1,4 +1,4 @@
-export const mapTwoColumns = (sections = []) => {
+export const mapTwoColumns = (sections = {}) => {
   const {
     __component: component = '',
     description: text = '',
