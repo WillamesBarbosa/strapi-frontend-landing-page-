@@ -38,6 +38,10 @@ Esta é uma landing page em desenvolvimento. Este repositório é dedicado a par
 * ReactJs
 * Css
 
+## Metodologias utilizadas
+
+* TDD (nas funções de map, como mapTwoColumns, mapSectionContent e afins)
+
 ## Pessoa desenvolvedora
 
 - Willames da Silva Barbosa
