@@ -7,7 +7,11 @@ export const mapSectionGridText = (sections = {}) => {
     text_grid: grid = [],
   } = sections;
 
+  // Necessário para receber o tipo do componente no FrontEnd
+  const componentType = component ? component + '-text' : 'section.section-grid-text';
+
   return {
+    componentType,
     component,
     title,
     description,

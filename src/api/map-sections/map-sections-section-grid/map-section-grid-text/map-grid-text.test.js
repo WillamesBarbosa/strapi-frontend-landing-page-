@@ -32,6 +32,7 @@ describe('should render grid text having data', () => {
 
     expect(data.background).toBe(false);
     expect(data.component).toBe('section.section-grid');
+    expect(data.componentType).toBe('section.section-grid-text');
     expect(data.description).toBe('abc');
     expect(data.section_id).toBe('grid-one');
     expect(data.title).toBe('My Grid');
@@ -43,6 +44,7 @@ describe('should render grid text having data', () => {
     const data = mapSectionGridText();
 
     expect(data.background).toBe(false);
+    expect(data.componentType).toBe('section.section-grid-text');
     expect(data.component).toBe('');
     expect(data.description).toBe('');
     expect(data.section_id).toBe('');
