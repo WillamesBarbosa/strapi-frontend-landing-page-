@@ -17,6 +17,13 @@ export const mapSectionGridText = (sections = {}) => {
     description,
     background,
     section_id,
-    grid,
+    grid: grid.map((text) => {
+      const { title = '', description = '' } = text;
+
+      return {
+        title,
+        description,
+      };
+    }),
   };
 };

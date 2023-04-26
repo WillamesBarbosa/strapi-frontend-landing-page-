@@ -51,4 +51,36 @@ describe('should render grid text having data', () => {
     expect(data.title).toBe('');
     expect(data.grid).toEqual([]);
   });
+
+  it('should map the grid even if the keys come empty', () => {
+    const data = mapSectionGridText({
+      __component: 'section.section-grid',
+      _id: '602fdf2d540c00269e056175',
+      description: 'Distinctio.',
+      title: 'Gallery',
+      image_grid: [],
+      text_grid: [
+        {
+          text: '',
+        },
+        {},
+      ],
+      metadata: {
+        background: false,
+        _id: '602fdf2e540c00269e0561a4',
+        name: 'gallery',
+        section_id: 'gallery',
+        __v: 0,
+        id: '602fdf2e540c00269e0561a4',
+      },
+    });
+
+    expect(data.background).toBe(false);
+    expect(data.componentType).toBe('section.section-grid-text');
+    expect(data.component).toBe('section.section-grid');
+    expect(data.description).toBe('Distinctio.');
+    expect(data.section_id).toBe('gallery');
+    expect(data.title).toBe('Gallery');
+    expect(data.grid[0].title).toBe('');
+  });
 });
