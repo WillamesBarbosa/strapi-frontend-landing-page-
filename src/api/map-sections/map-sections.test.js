@@ -17,13 +17,13 @@ describe('map sections', () => {
     expect(dataNoExist).toEqual([[]]);
   });
 
-  it('should', () => {
+  it('should render with full data', () => {
     const data = mapSections(PageFakeData[0].sections);
 
     expect(data[0].background).toBe(true);
   });
 
-  it('should', () => {
+  it('should enter the condition of section grid and leave it', () => {
     const dataExistButIsEmpty = mapSections([
       {
         __component: 'section.section-grid',

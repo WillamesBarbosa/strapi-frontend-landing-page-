@@ -55,7 +55,6 @@ describe('should render grid text having data', () => {
   it('should map the grid even if the keys come empty', () => {
     const data = mapSectionGridText({
       __component: 'section.section-grid',
-      _id: '602fdf2d540c00269e056175',
       description: 'Distinctio.',
       title: 'Gallery',
       image_grid: [],
@@ -67,11 +66,8 @@ describe('should render grid text having data', () => {
       ],
       metadata: {
         background: false,
-        _id: '602fdf2e540c00269e0561a4',
         name: 'gallery',
         section_id: 'gallery',
-        __v: 0,
-        id: '602fdf2e540c00269e0561a4',
       },
     });
 

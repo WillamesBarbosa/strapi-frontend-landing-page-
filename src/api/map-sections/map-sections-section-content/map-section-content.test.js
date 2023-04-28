@@ -10,7 +10,7 @@ describe('map sections', () => {
     expect(data.title).toBe('');
   });
 
-  it('', () => {
+  it('should map data even if there are data', () => {
     const data = mapSectionContent({
       __component: 'Component Name',
       title: 'title',
