@@ -18,7 +18,7 @@ export const BaseTemplate = ({ links = [], logoData, html, children }) => {
 };
 
 BaseTemplate.propTypes = {
-  children: P.node.isRequired,
+  children: P.node,
   ...Menu.propTypes,
-  html: P.string.isRequired,
+  html: P.string,
 };
