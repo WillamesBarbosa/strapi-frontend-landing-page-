@@ -5,6 +5,7 @@ import mockBase from '../templates/BaseTemplate/mock';
 import { useRef } from 'react';
 import { useState } from 'react';
 import { PageNotFound } from './PageNotFound';
+import { Loading } from './Loading';
 
 function Home() {
   const [pageData, setPageData] = useState({});
@@ -38,7 +39,7 @@ function Home() {
   }
 
   if (pageData && !pageData.slug) {
-    return <h1>Carregando...</h1>;
+    return <Loading />;
   }
   return <BaseTemplate {...mockBase} />;
 }
