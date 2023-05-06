@@ -28,6 +28,6 @@ export const loadingBar = styled.div`
     border: 1rem solid white;
     border-top: 1rem solid ${theme.colors.secondaryColor};
     border-radius: 50%;
-    animation: ${isRotating} 1s infinite;
+    animation: ${isRotating} 0.8s infinite linear;
   `}
 `;
