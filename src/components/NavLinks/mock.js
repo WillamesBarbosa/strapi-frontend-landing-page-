@@ -1,52 +1,52 @@
 export default [
   {
     children: 'Link 1',
-    link: '#target1',
+    link_primary: '#target1',
     newTab: false,
   },
   {
     children: 'Link 2',
-    link: '#target2',
+    link_primary: '#target2',
     newTab: false,
   },
   {
     children: 'Link 3',
-    link: '#target3',
+    link_primary: '#target3',
     newTab: false,
   },
   {
     children: 'Link 4',
-    link: '#target4',
+    link_primary: '#target4',
     newTab: false,
   },
   {
     children: 'Link 5',
-    link: '#target5',
+    link_primary: '#target5',
     newTab: false,
   },
   {
     children: 'Link 6',
-    link: '#target6',
+    link_primary: '#target6',
     newTab: false,
   },
   {
     children: 'Link 7',
-    link: '#target7',
+    link_primary: '#target7',
     newTab: false,
   },
   {
     children: 'Link 8',
-    link: '#target8',
+    link_primary: '#target8',
     newTab: false,
   },
   {
     children: 'Link 9',
-    link: '#target9',
+    link_primary: '#target9',
     newTab: false,
   },
   {
     children: 'Link 10',
-    link: '#target10',
+    link_primary: '#target10',
     newTab: false,
   },
 ];

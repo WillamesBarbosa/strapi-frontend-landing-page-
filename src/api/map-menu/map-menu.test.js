@@ -15,7 +15,7 @@ describe('map menu', () => {
       open_in_new_tab: false,
       logo_text: 'Landing Page',
       logo_link: '#home',
-      menu: [
+      menu_links: [
         {
           open_in_new_tab: false,
           link_text: 'pricing',

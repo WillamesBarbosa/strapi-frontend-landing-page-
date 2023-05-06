@@ -1,7 +1,7 @@
 import { BaseTemplate } from '../templates/BaseTemplate/index';
 import { useEffect } from 'react';
 import { mapData } from '../api/map-data/map-data';
-import mockBase from '../templates/BaseTemplate/mock';
+// import mockBase from '../templates/BaseTemplate/mock';
 import { useRef } from 'react';
 import { useState } from 'react';
 import { PageNotFound } from './PageNotFound';
@@ -9,6 +9,13 @@ import { Loading } from './Loading';
 
 function Home() {
   const [pageData, setPageData] = useState({});
+  const { menu, footer_text } = pageData;
+  const menuProperties = { ...menu };
+
+  const logoData = { children: menuProperties.children, link: menuProperties.link, srcImg: menuProperties.srcImg };
+  const links = menuProperties.links;
+  console.log(links);
+
   const isMounted = useRef(true);
 
   useEffect(() => {
@@ -20,6 +27,7 @@ function Home() {
         const page = mapData([attributes]);
         const objectPage = page[0];
         setPageData(objectPage);
+        console.log(objectPage);
       } catch (error) {
         setPageData(undefined);
       }
@@ -41,7 +49,7 @@ function Home() {
   if (pageData && !pageData.slug) {
     return <Loading />;
   }
-  return <BaseTemplate {...mockBase} />;
+  return <BaseTemplate html={footer_text} links={menuProperties.links} logoData={logoData} />;
 }
 
 export { Home };

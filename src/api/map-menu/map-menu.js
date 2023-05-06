@@ -3,7 +3,7 @@ export const mapMenu = (menu = {}) => {
     open_in_new_tab: newTab = false,
     logo_text: children = '',
     logo_link: link = '',
-    menu: links = [],
+    menu_links: links = [],
     logo: { url: srcImg } = '',
   } = menu;
 

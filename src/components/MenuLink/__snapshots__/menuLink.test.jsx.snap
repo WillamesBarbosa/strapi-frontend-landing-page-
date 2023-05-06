@@ -31,7 +31,6 @@ exports[`<MenuLink /> should match snapshot 1`] = `
 
 <a
   class="c0"
-  href="https://localhost"
   target="_self"
 >
   Children

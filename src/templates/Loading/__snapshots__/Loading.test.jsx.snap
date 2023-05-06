@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> should render 1`] = `
+.c0 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0A1128;
+}
+
+.c1 {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  border: 1rem solid white;
+  border-top: 1rem solid #dc143c;
+  border-radius: 50%;
+  -webkit-animation: hEJTsP 0.8s infinite linear;
+  animation: hEJTsP 0.8s infinite linear;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  />
+</div>
+`;

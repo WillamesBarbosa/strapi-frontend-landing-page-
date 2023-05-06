@@ -5,7 +5,7 @@ import { Menu } from '.';
 import linksMock from '../NavLinks/mock';
 import { theme } from '../../styles/theme';
 const logoData = {
-  text: 'Logo',
+  children: 'Logo',
   link: '#target',
 };
 
