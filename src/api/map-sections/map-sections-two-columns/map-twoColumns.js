@@ -1,8 +1,9 @@
 export const mapTwoColumns = (sections = {}) => {
   const {
     __component: component = '',
+    title,
     description: text = '',
-    image: { url: srcImg = '' } = '',
+    image: { data: { attributes: { url: srcImg } = '' } = '' } = '',
     metadata: { background = false, section_id = '' } = false,
   } = sections;
 
@@ -12,5 +13,6 @@ export const mapTwoColumns = (sections = {}) => {
     srcImg,
     background,
     section_id,
+    title,
   };
 };

@@ -57,7 +57,7 @@ export const Container = styled.div`
 export const MenuContainer = styled.div`
   ${({ theme }) => css`
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     @media ${theme.mediaQuerie.mediumQuerie} {
       display: block;

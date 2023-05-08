@@ -18,12 +18,20 @@ export const mapSectionGridImage = (sections = {}) => {
     background,
     section_id,
     grid: grid.map((image) => {
-      const { image: { url: srcImg = '', alternativeText: altText = '' } = '' } = image;
+      const { image: { data = [] } = '' } = image;
+      const dataUse = data;
+      let srcImg = '';
+      let altText = '';
 
-      return {
-        srcImg,
-        altText,
-      };
+      dataUse.map((dataImage) => {
+        const {
+          attributes: { url = '', alternativeText = '' },
+        } = dataImage;
+
+        srcImg = url;
+        altText = alternativeText;
+      });
+      return { srcImg, altText };
     }),
   };
 };

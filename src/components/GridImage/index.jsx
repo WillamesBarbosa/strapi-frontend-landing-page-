@@ -5,7 +5,7 @@ import { SectionBackground } from '../BackgroundContainer/index';
 import { Heading } from '../Heading/index';
 import { TextComponent } from '../TextComponent/index';
 
-export const GridImage = ({ title, description, grid, background = false }) => {
+export const GridImage = ({ title, description, grid = [], background = false }) => {
   return (
     <SectionBackground backgroundColor={background}>
       <Styled.Container>
@@ -14,8 +14,8 @@ export const GridImage = ({ title, description, grid, background = false }) => {
         </Heading>
         <TextComponent>{description}</TextComponent>
         <Styled.Grid>
-          {grid.map((elementGrid) => (
-            <Styled.GridElement key={elementGrid.srcImg}>
+          {grid.map((elementGrid, index) => (
+            <Styled.GridElement key={index}>
               <Styled.Image src={elementGrid.srcImg} alt={elementGrid.altText} />
             </Styled.GridElement>
           ))}
