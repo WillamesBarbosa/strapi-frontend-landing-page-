@@ -3,6 +3,8 @@ import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    margin: auto;
+    width: 85%;
     ${TextComponent} {
       margin-bottom: ${theme.font.spacings.xbig};
     }

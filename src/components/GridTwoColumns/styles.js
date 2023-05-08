@@ -8,6 +8,8 @@ export const Container = styled.div`
     align-items: center;
     gap: ${theme.font.spacings.big};
     padding: ${theme.font.spacings.big};
+    width: 85%;
+    margin: auto;
 
     @media ${theme.mediaQuerie.mediumQuerie} {
       grid-template-columns: 1fr;
