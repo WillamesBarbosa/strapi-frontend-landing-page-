@@ -3,7 +3,7 @@ export const mapTwoColumns = (sections = {}) => {
     __component: component = '',
     title,
     description: text = '',
-    image: { data: { attributes: { url: srcImg } = '' } = '' } = '',
+    image: { data: { attributes: { url: srcImg = '' } = '' } = '' } = '',
     metadata: { background = false, section_id = '' } = false,
   } = sections;
 

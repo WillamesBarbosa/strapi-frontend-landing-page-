@@ -16,6 +16,8 @@ exports[`<GridTwoColumn /> should match snapshot 1`] = `
   align-items: center;
   gap: 4.0rem;
   padding: 4.0rem;
+  width: 85%;
+  margin: auto;
 }
 
 .c1 .c3 {
@@ -53,6 +55,7 @@ exports[`<GridTwoColumn /> should match snapshot 1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"

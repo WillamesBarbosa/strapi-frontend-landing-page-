@@ -10,6 +10,7 @@ exports[`<SectionBackground /> should match snapshot 1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <h1>
     Children
@@ -30,6 +31,7 @@ exports[`<SectionBackground /> should render with background dark 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <h1>
       Children
@@ -49,6 +51,7 @@ exports[`<SectionBackground /> should render with background light 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <h1>
       Children
@@ -68,6 +71,7 @@ exports[`<SectionBackground /> should render with background undefined 1`] = `
 <div>
   <div
     class="c0"
+    id=""
   >
     <h1>
       Children

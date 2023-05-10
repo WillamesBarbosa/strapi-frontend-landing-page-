@@ -5,7 +5,7 @@ describe('map sections', () => {
     const data = mapSectionGridImage();
 
     expect(data.background).toBe(false);
-    expect(data.componentType).toBe('section.section-grid-image');
+    expect(data.componentType).toBe('');
     expect(data.component).toBe('');
     expect(data.description).toBe('');
     expect(data.section_id).toBe('');
@@ -22,9 +22,15 @@ describe('map sections', () => {
       image_grid: [
         {
           image: {
-            name: 'http://source.unsplash.com/random/360x360?r=1',
-            alternativeText: 'Uma paisagem com céu claro e montanhas bonitas',
-            url: 'a.jpg',
+            data: [
+              {
+                attributes: {
+                  name: 'http://source.unsplash.com/random/360x360?r=1',
+                  alternativeText: 'Uma paisagem com céu claro e montanhas bonitas',
+                  url: 'a.jpg',
+                },
+              },
+            ],
           },
         },
         {
@@ -60,7 +66,18 @@ describe('map sections', () => {
       text_grid: [],
       image_grid: [
         {
-          image: {},
+          image: {
+            data: [
+              {
+                attributes: {},
+              },
+            ],
+          },
+        },
+        {
+          image: {
+            data: [{}],
+          },
         },
         {},
       ],

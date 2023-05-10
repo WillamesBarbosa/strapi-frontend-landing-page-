@@ -23,4 +23,8 @@ describe('<GridImage />', () => {
     renderTheme(<GridImage {...mock} background={false} />);
     expect(screen.getByAltText('Teste 1')).toBeInTheDocument();
   });
+
+  it('should render GridImage with no data', () => {
+    renderTheme(<GridImage background={true} />);
+  });
 });

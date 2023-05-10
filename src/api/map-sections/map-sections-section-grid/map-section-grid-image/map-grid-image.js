@@ -1,13 +1,13 @@
 export const mapSectionGridImage = (sections = {}) => {
   const {
-    __component: component = 'section.section-grid-image',
+    __component: component = '',
     title = '',
     description = '',
     metadata: { background = false, section_id = '' } = {},
     image_grid: grid = [],
   } = sections;
 
-  const componentType = component + '-image';
+  const componentType = component ? `${component}-image` : '';
 
   const mappedGrid = grid.map((image) => {
     const { image: { data = [] } = {} } = image;

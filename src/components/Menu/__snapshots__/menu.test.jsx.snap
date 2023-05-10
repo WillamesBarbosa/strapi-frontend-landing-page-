@@ -19,7 +19,6 @@ exports[`<Menu /> should not render links 1`] = `
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
   border-bottom: #DDDDDD;
   background: #fff;
   -webkit-transition: all 300ms ease-in-out;
@@ -42,10 +41,10 @@ exports[`<Menu /> should not render links 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -237,7 +236,6 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
   border-bottom: #DDDDDD;
   background: #fff;
   -webkit-transition: all 300ms ease-in-out;
@@ -260,10 +258,10 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;

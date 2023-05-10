@@ -36,6 +36,7 @@ exports[`<GridContent /> should match snapshot 1`] = `
 
 <div
   class="c0"
+  id=""
 >
   <div
     class="c1"

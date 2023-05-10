@@ -16,7 +16,11 @@ describe('map sections', () => {
       __component: 'Component Name',
       description: 'Description',
       image: {
-        url: 'a.svg',
+        data: {
+          attributes: {
+            url: 'a.svg',
+          },
+        },
       },
       metadata: {
         background: true,
