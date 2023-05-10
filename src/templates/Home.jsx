@@ -8,6 +8,7 @@ import { Loading } from './Loading';
 import { GridTwoColumn } from '../components/GridTwoColumns/index';
 import { GridContent } from '../components/GridContent/index';
 import { GridImage } from '../components/GridImage/index';
+import { GridText } from '../components/GridSection/index';
 
 function Home() {
   const [pageData, setPageData] = useState({});
@@ -61,6 +62,9 @@ function Home() {
           return <GridContent key={index} {...section} />;
         }
         if (component === 'section.section-grid') {
+          if (componentType === 'section.section-grid-text') {
+            return <GridText key={index} {...section} />;
+          }
           if (componentType === 'section.section-grid-image') {
             return <GridImage key={index} {...section} />;
           }

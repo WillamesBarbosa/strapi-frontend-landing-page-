@@ -15,7 +15,6 @@ export const Container = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
     border-bottom: ${theme.colors.mediumGray};
     background: ${theme.colors.white};
     transition: all 300ms ease-in-out;
@@ -80,7 +79,6 @@ export const Button = styled.button`
       border: none;
       display: none;
       pointer-events: ${visible ? 'none' : 'all'};
-
     > svg {
       width: 2.5rem;
       height: 2.5rem;

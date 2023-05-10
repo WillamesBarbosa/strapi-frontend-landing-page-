@@ -4,12 +4,12 @@ import { Container as TextComponent } from '../TextComponent/styles';
 
 export const Container = styled.div`
   ${({ theme }) => css`
+    margin: auto;
+    width: 85%;
     ${TextComponent} {
       margin-bottom: ${theme.font.spacings.xbig};
       margin-top: ${theme.font.spacings.xbig};
       font-size: ${theme.font.spacings.small};
-      margin: auto;
-      width: 85%;
 
       & > ${HeadingContainer} {
         font-size: ${theme.font.size.small};

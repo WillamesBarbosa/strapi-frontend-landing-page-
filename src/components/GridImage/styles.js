@@ -5,6 +5,10 @@ export const Container = styled.div`
   ${({ theme }) => css`
     margin: auto;
     width: 85%;
+
+    @media ${theme.mediaQuerie.mediumQuerie} {
+      width: 90%;
+    }
     ${TextComponent} {
       margin-bottom: ${theme.font.spacings.xbig};
     }
