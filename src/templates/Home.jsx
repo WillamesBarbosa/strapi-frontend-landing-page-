@@ -9,26 +9,27 @@ import { GridTwoColumn } from '../components/GridTwoColumns/index';
 import { GridContent } from '../components/GridContent/index';
 import { GridImage } from '../components/GridImage/index';
 import { GridText } from '../components/GridSection/index';
+import { useLocation } from 'react-router-dom';
 
 function Home() {
   const [pageData, setPageData] = useState({});
-  const { menu, footer_text, sections } = pageData;
-  const menuProperties = { ...menu };
-
-  const logoData = { children: menuProperties.children, link: menuProperties.link, srcImg: menuProperties.srcImg };
+  const { menu = {}, footer_text = '', sections = [] } = pageData ? pageData : [];
+  const location = useLocation();
 
   const isMounted = useRef(true);
 
   useEffect(() => {
+    const pathName = location.pathname.replace(/[^a-z0-9-_]/gi, '');
+    const slug = pathName ? pathName : 'landing-page';
+
     const load = async () => {
       try {
-        const data = await fetch('http://localhost:1337/api/pages?populate=deep');
+        const data = await fetch(`http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`);
         const json = await data.json();
         const { attributes } = json.data[0];
         const page = mapData([attributes]);
         const objectPage = page[0];
         setPageData(objectPage);
-        console.log(objectPage);
       } catch (error) {
         setPageData(undefined);
       }
@@ -41,7 +42,7 @@ function Home() {
     return () => {
       isMounted.current = false;
     };
-  }, []);
+  }, [location]);
 
   if (pageData === undefined) {
     return <PageNotFound />;
@@ -51,7 +52,11 @@ function Home() {
     return <Loading />;
   }
   return (
-    <BaseTemplate html={footer_text} links={menuProperties.links} logoData={logoData}>
+    <BaseTemplate
+      html={footer_text}
+      links={menu.links}
+      logoData={{ children: menu.children, link: menu.link, srcImg: menu.srcImg }}
+    >
       {sections.map((section, index) => {
         const { component } = section;
         const { componentType } = section;
@@ -69,8 +74,6 @@ function Home() {
             return <GridImage key={index} {...section} />;
           }
         }
-        console.log(section);
-        // console.log(component);
       })}
     </BaseTemplate>
   );
