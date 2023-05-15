@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import { useState } from 'react';
+
+import { useLocation } from 'react-router-dom';
+
+import config from './config/index';
+
 import { mapData } from '../api/map-data/map-data';
 import { BaseTemplate } from '../templates/BaseTemplate/index';
 import { PageNotFound } from './PageNotFound';
@@ -9,7 +14,6 @@ import { GridTwoColumn } from '../components/GridTwoColumns/index';
 import { GridContent } from '../components/GridContent/index';
 import { GridImage } from '../components/GridImage/index';
 import { GridText } from '../components/GridSection/index';
-import { useLocation } from 'react-router-dom';
 
 function Home() {
   const [pageData, setPageData] = useState({});
@@ -24,7 +28,7 @@ function Home() {
 
     const load = async () => {
       try {
-        const data = await fetch(`http://localhost:1337/api/pages/?filters[slug]=${slug}&populate=deep`);
+        const data = await fetch(`${config.url}${slug}&populate=deep`);
         const json = await data.json();
         const { attributes } = json.data[0];
         const page = mapData([attributes]);
@@ -43,6 +47,20 @@ function Home() {
       isMounted.current = false;
     };
   }, [location]);
+
+  useEffect(() => {
+    if (pageData === undefined) {
+      document.title = `${config.siteName} | Página não encontrada`;
+    }
+
+    if (pageData && !pageData.slug) {
+      document.title = `${config.siteName} | Carregando...`;
+    }
+
+    if (pageData && pageData.title) {
+      document.title = `${config.siteName} | Página Inicial`;
+    }
+  }, [pageData]);
 
   if (pageData === undefined) {
     return <PageNotFound />;
