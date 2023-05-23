@@ -1,48 +1,54 @@
-# Landing Page Front-End
+# Landing Page Front-End 🚀
 
-## Descrição
-Esta é uma landing page em desenvolvimento. Este repositório é dedicado a parte Front-End do projeto.
-[Aqui o link do Back-End](https://github.com/WillamesBarbosa/strapi-backend-landing-page)
+## Descrição ✔️
+Esta é uma landing page que consome uma API que fornece as informações que devem conter na página.
+A logo, menus, conteúdos e afins são todos fornecidos pela API, então aqui neste projeto essas informações são mapeadas e transformadas
+em uma landing page.
 
-## Status
-* Componente Heading criado;
-* Componente Heading testado;
+[Aqui o link do Back-End](https://github.com/WillamesBarbosa/strapi-backend-landing-page).
 
-* Componente LogoLink criado;
-* Componente LogoLink testado;
+## Como instalar ⚙️
 
-* Componente MenuLink criado;
-* Componente MenuLink testado;
-
-* Componente NavLinks criado;
-* Componente NavLinks testado;
-
-* Componente TextoComponent criado;
-* Componente TextoComponent testado;
-
-* Componente SectionContainer criado;
-* Componente SectionContainer testado;
-
-* Componente SectionBackground criado;
-* Componente SectionBackground testado;
+> **Warning**
+> **A parte referente ao mapeamento das páginas ainda está em desenvolvimento, então o react router dom ainda não está em pleno funcionamento**
 
 
-* Ainda em desenvolvimento...
 
-## Acesso ao projeto
+* Primeiro você precisa baixar o node_modules.
+```
+npm i
+```
 
-* Em breve...
 
-## Tecnologias utilizadas
+* Agora você precisa rodar o servidor backend a API
+
+[Aqui o link do Back-End](https://github.com/WillamesBarbosa/strapi-backend-landing-page).
+
+
+* Rode este projeto
+
+```
+npm start
+```
+
+
+
+> **Important**
+> **Lembrando que a URL configurada neste projeto é referente ao localhost, se quiser rodar o back end
+ em um servidor (heroku, aws e afins) é necessário alterar**
+
+## Tecnologias utilizadas 🤖
 
 * ReactJs
-* Css
+* Styled-Components
+* React Router Dom
+* Storybook
 
-## Metodologias utilizadas
+## Metodologias utilizadas 📈
 
 * TDD (nas funções de map, como mapTwoColumns, mapSectionContent e afins)
 
-## Pessoa desenvolvedora
+## Pessoa desenvolvedora 😉
 
 - Willames da Silva Barbosa
 
